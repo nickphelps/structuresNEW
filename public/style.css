@@ -1,0 +1,154 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+.nav-link {
+    color: #404040;
+}
+
+#home {
+    background: url("images/homePictureOne.jpg") no-repeat center top fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    margin: 0px;
+}
+
+.container {
+    position: absolute;
+    bottom: 60%;
+    left: 7%
+}
+
+.navbar {
+    background: transparent;
+}
+
+.lead {
+    /* top: 10%; */
+    text-align: center;
+    font-size: 15px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.jumbotron {
+    margin: 0px;
+    background-color: #F5F5F5;
+    /* background-color: #F8F8FF; */
+    padding: 1%;
+    color: #404040;
+}
+
+.introduction-container {
+    height: 90%;
+    width: 75%;
+    margin: auto;
+}
+
+.display-4 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.card-img-top {
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+#transition-img {
+    background: url('images/pumpTruck.jpg') no-repeat center top fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    margin: 0px;
+}
+
+/* Card Zoom Logic */
+.card-flatwork  {
+    overflow: hidden;
+    border-radius: 100%;
+}
+
+.card-waterfeature  {
+    overflow: hidden;
+    border-radius: 100%;
+}
+
+.card-foundation  {
+    overflow: hidden;
+    border-radius: 100%;
+}
+
+.card-pumptruck  {
+    overflow: hidden;
+    border-radius: 100%;
+}
+
+.flatwork-img:hover {
+    transform: scale(1.2);
+    opacity: .6;
+}
+
+.waterfeature-img:hover {
+    transform: scale(1.2);
+    opacity: .6;
+}
+
+
+.foundation-img:hover {
+    transform: scale(1.2);
+    opacity: .6;
+}
+
+.pumptruck-img:hover {
+    transform: scale(1.2);
+    opacity: .6;
+} 
+
+.text {
+    color: #040400;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+    transition: .2s ease;
+  }
+
+
+.mb-3 {
+    background-color: #001A33;
+}
+
+.footer-links {
+    height: auto;
+    width: 100%;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #101010;
+    color: #404040;
+}
+
+.nav-link-footer{
+    color: #404040;
+}
+
+.footer-body {
+    font-size: 50%;
+}

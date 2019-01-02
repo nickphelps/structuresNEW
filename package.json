@@ -1,0 +1,28 @@
+{
+  "name": "structuresnew",
+  "version": "1.0.0",
+  "description": "Structures New Company Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickphelps/structuresNEW.git"
+  },
+  "keywords": [
+    "Concrete",
+    "Contractor"
+  ],
+  "author": "Nick Phelps (nphelps@structuresNEW.net | github.com/nickphelps)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickphelps/structuresNEW/issues"
+  },
+  "homepage": "https://github.com/nickphelps/structuresNEW#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "1.18.8"
+  }
+}
