@@ -50,7 +50,7 @@
                     <div class="col-sm-6">
                       <div class="card">
                         <div class="card-body location-card">
-                          <h5 class="card-title">Location</h5>
+                          <h5 class="card-title">Location:</h5>
                           <p class="card-text"><strong>Headquarters:</strong></p>
                           <p class="card-text">410 Interchange St, McKinney, TX</p>
                           <p class="card-text">Phone: 972-800-5970</p>
@@ -63,12 +63,40 @@
                       <div class="card myCard">
                         <div class="card-body contact-form-card">
                           <h5 class="card-title">Contact Form:</h5>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
                             <!-- Contact Form -->
-                            
-
-
-
+                           
+                            <form>
+                                <div class="row">
+                                  <div class="col">
+                                    <label for="name-field">Name:</label>
+                                    <input id="name-field" type="text" class="form-control">
+                                  </div>
+                                  <div class="col">
+                                      <label for="phone-field">Phone:</label>
+                                    <input id="phone-field" type="text" class="form-control">
+                                  </div>
+                                </div>
+                                <br/>
+                                <div class="row">
+                                <div class="col">
+                                    <label for="company-field">Company:</label>
+                                    <input id="company-field" type="text" class="form-control">
+                                </div>
+                                <div class="col">
+                                    <label for="email-field">Email:</label>
+                                    <input id="email-field" type="text" class="form-control">
+                                </div>
+                                </div>
+                                <br/>
+                                <div class="row">
+                                    <div class="col">
+                                        <label for="form-message">How can we help you?:</label>
+                                        <textarea id="form-message" class="form-control" placeholder="Please Enter Your Message"></textarea>
+                                    </div>
+                                </div>
+                                <br/>
+                                <input class="btn btn-primary btn-lg" type="submit" value="Submit">
+                              </form>
                         </div>
                       </div>
                     </div>
