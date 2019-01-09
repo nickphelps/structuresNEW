@@ -116,7 +116,7 @@ html, body {
 } 
 
 .text {
-    color: #040400;
+    color: #404040;
     font-size: 20px;
     position: absolute;
     top: 50%;
@@ -151,4 +151,40 @@ html, body {
 
 .footer-body {
     font-size: 50%;
+}
+
+
+/* ABOUT CSS */
+#home-about {
+    background: url("images/about-background.jpg") no-repeat center top fixed;
+    display: table;
+    height: 70%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    margin: 0px;
+}
+
+/* CONTACT CSS*/
+#home-contact {
+    background: url("images/contact-background.jpg") no-repeat center top fixed;
+    display: table;
+    height: 70%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    margin: 0px;
+}
+
+
+
+/* Project CSS*/
+#home-projects {
+    background: url("images/project-background.jpg") no-repeat center top fixed;
+    display: table;
+    height: 70%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    margin: 0px;
 }
