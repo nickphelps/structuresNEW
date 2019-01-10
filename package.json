@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,8 @@
   "homepage": "https://github.com/nickphelps/structuresNEW#readme",
   "dependencies": {
     "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "nodemailer": "^5.1.0",
     "nodemon": "1.18.8"
   }
 }
