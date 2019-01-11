@@ -4,6 +4,10 @@ html, body {
     background-color: #F5F5F5;
 }
 
+.navbartop {
+background-color: red;
+}
+
 .nav-link {
     color: #404040;
 }
