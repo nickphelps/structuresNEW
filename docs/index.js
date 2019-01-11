@@ -7,7 +7,7 @@ $(window).scroll(function () {
     }
 })
 
-//Home Page Card Logic
+//Home Page Card Logic for Scope Cards
 document.getElementById('flatwork-card').onmouseover = function() {
     document.getElementById('flatwork-innertext').style = 'opacity: 1;'
 }
