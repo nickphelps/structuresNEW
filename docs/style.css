@@ -1,12 +1,12 @@
 html, body {
     height: 100%;
     width: 100%;
-    background-color: #F5F5F5;
+    background-color: rgb(248, 248, 255);
 }
 
-.navbartop {
+/* .navbar {
 background-color: red;
-}
+} */
 
 .nav-link {
     color: #404040;
@@ -173,7 +173,7 @@ background-color: red;
 #home-contact {
     background: url("images/contact-background.jpg") no-repeat center top fixed;
     display: table;
-    height: 30%;
+    height: 90%;
     position: relative;
     width: 100%;
     background-size: cover;
