@@ -1,7 +1,7 @@
 //header scroll logic
 $(window).scroll(function () {
     if ($(window).scrollTop() >= 300) {
-        $('.navbartop').css('background', '#F8F8FF')
+        $('.navbartop').css('background', '#F5F5F5')
     } else {
         $('.navbartop').css('background', 'transparent')
     }
