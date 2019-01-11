@@ -4,6 +4,10 @@ html, body {
     background-color: #F5F5F5;
 }
 
+.navbartop {
+background-color: red;
+}
+
 .nav-link {
     color: #404040;
 }
@@ -169,11 +173,19 @@ html, body {
 #home-contact {
     background: url("images/contact-background.jpg") no-repeat center top fixed;
     display: table;
-    height: 70%;
+    height: 30%;
     position: relative;
     width: 100%;
     background-size: cover;
     margin: 0px;
+}
+
+.location-card {
+    background-color:#F5F5F5;
+}
+
+.contact-form-card {
+    background-color: #F5F5F5;
 }
 
 
