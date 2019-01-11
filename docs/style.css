@@ -173,7 +173,7 @@ background-color: red;
 #home-contact {
     background: url("images/contact-background.jpg") no-repeat center top fixed;
     display: table;
-    height: 50%;
+    height: 90%;
     position: relative;
     width: 100%;
     background-size: cover;
