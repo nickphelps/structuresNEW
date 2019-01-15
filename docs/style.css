@@ -4,14 +4,13 @@ html, body {
     background-color: rgb(248, 248, 255);
 }
 
-#navbarNav {
-    border: 1px solid #001A33;
-}
 
 #button-button {
     height: 120px;
     width: 120px;
 }
+
+
 
 #home {
     background: url("images/homePictureOne.jpg") no-repeat center top fixed;
@@ -149,6 +148,7 @@ html, body {
     background-color: #101010;
     color: #404040;
 }
+
 
 .nav-link-footer{
     color: #404040;
