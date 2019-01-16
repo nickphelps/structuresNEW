@@ -4,6 +4,9 @@ $(window).scroll(function () {
         $('.navbartop').css('background', '#F5F5F5')
     } else {
         $('.navbartop').css('background', 'transparent')
+
+        // $('.navbartop').css('background', 'rgba(164,182,202,0.75)')
+        // $('.navbartop').css('opacity', '0.2')
     }
 })
 

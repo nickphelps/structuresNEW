@@ -6,8 +6,6 @@ const nodemailer = require('nodemailer');
 const morgan = require("morgan");
 app.use(morgan('dev'));
 
-// let transporter = nodemailer.createTransport(transport[,defaults])
-
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(__dirname + '/docs'))
@@ -33,8 +31,7 @@ app.post('/form/info', function (request, response, nextFn) {
                <h2>Customer Phone:${request.body.customerPhone}</h2>
                <h2>Customer Company: ${request.body.customerCompany}</h2>
                <h2>Customer Email: ${request.body.customerEmail}</h2>
-               <p>Customer Message:${request.body.customerMessage}</p>
-               `
+               <p>Customer Message:${request.body.customerMessage}</p>`
     }
     
     transporter.sendMail(mailOptions, function(error, info) {
