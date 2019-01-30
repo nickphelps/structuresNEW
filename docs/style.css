@@ -14,7 +14,7 @@ background-color: red;
 }
 
 #home {
-    background: url("images/homePictureOne.jpg") no-repeat center top fixed;
+    background: url("images/hpmePictureOne.jpg") no-repeat center top fixed;
     display: table;
     height: 100%;
     position: relative;
@@ -172,7 +172,7 @@ background-color: red;
 #home-about {
     background: url("images/about-background.jpg") no-repeat center top fixed;
     display: table;
-    height: 70%;
+    height: 90%;
     position: relative;
     width: 100%;
     background-size: cover;
@@ -202,9 +202,9 @@ background-color: red;
 
 /* Project CSS*/
 #home-projects {
-    background: url("images/project-background.jpg") no-repeat center top fixed;
+    background: url("images/projects/Grapevine_Station/grapevine1.jpg") no-repeat center top fixed;
     display: table;
-    height: 70%;
+    height: 90%;
     position: relative;
     width: 100%;
     background-size: cover;
