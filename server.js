@@ -45,7 +45,9 @@ app.post('/form/info', function (request, response, nextFn) {
 
 })//post
 
+
+const ourPort = process.env.PORT || 3000
 //setting up server on port 3000
-app.listen(3000, function() {
+app.listen(ourPort, function() {
     console.log('structures NEW Company Site is running on port 3000...')
 })
