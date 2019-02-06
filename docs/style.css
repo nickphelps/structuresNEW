@@ -5,9 +5,6 @@ html, body {
     background-color: #001A33;
 }
 
-/* .navbar {
-background-color: red;
-} */
 
 .nav-link {
     color: #404040;
@@ -15,7 +12,6 @@ background-color: red;
 }
 
 #home {
-    background: url("images/hpmePictureOne.jpg") no-repeat center top fixed;
     display: table;
     height: 100%;
     position: relative;
@@ -57,7 +53,6 @@ background-color: red;
 .jumbotron {
     margin: 0px;
     background-color: #F5F5F5;
-    /* background-color: #F8F8FF; */
     padding: 1%;
     color: #404040;
 }
@@ -79,7 +74,6 @@ background-color: red;
 }
 
 #transition-img {
-    background: url('images/pumpTruck.jpg') no-repeat center top fixed;
     display: table;
     height: 100%;
     position: relative;
@@ -171,7 +165,6 @@ background-color: red;
 
 /* ABOUT CSS */
 #home-about {
-    background: url("images/about-background.jpg") no-repeat center top fixed;
     display: table;
     height: 90%;
     position: relative;
@@ -182,7 +175,6 @@ background-color: red;
 
 /* CONTACT CSS*/
 #home-contact {
-    background: url("images/contact-background.jpg") no-repeat center top fixed;
     display: table;
     height: 90%;
     position: relative;
@@ -208,11 +200,114 @@ background-color: red;
 
 /* Project CSS*/
 #home-projects {
-    background: url("images/projects/Grapevine_Station/grapevine1.jpg") no-repeat center top fixed;
     display: table;
     height: 90%;
     position: relative;
     width: 100%;
     background-size: cover;
     margin: 0px;
+}
+
+/*******************************
+		MEDIA QUERY STYLES
+*******************************/
+@media (max-width: 1139px) {
+	.featured-split-video, .featured-split-code {
+		width: 550px;
+	}
+	.featured-split-code {
+		margin-top: -9px;
+	}
+}
+
+@media (max-width: 540px) {
+	.header {
+		height: 300px;
+	}
+	.logo {
+		margin-left: -30px;
+	}
+	.about h2 {
+		clear: right;
+	}
+	.about img, .about h2 {
+		float: none;
+		text-align: center;
+	}
+	.about, .contact, .featured {
+		padding: 20px;
+	}
+	.about img {
+		margin-left: 15%;
+	}
+	.featured-split-video, .featured-split-code {
+	    width: 87%;
+	}
+	.iframe-video {
+		width: 100%;
+	}
+	.featured button {
+		padding: 14px 21px;
+		margin: 3px 6px;
+	}
+	.portfolio {
+		padding: 25px;
+	}
+	.menu {
+		display: none;
+	}
+	.hamburger-icon {
+		cursor: pointer;
+		display: block;
+		float: right;
+		margin: 5px 20px 0px 0px;
+	}
+	.contact {
+		height: 500px;
+	}
+	.contact-buttons {
+		padding: 21px 65px;
+	}
+}
+
+/* Phone 6 Plus*/
+@media (max-width: 414px) {
+	.navbar-brand {
+        background-image: url('images/')
+    }
+}
+
+/* iPhone 5 and iPhone 6 */
+@media (max-width: 375px) {
+	.contact-buttons {
+		padding: 15px 20px;
+	}
+	.about img {
+		margin-left: 13%;
+	}
+	.portfolio-text {
+		padding: 0 13px;
+	}
+	.portfolio {
+		padding: 5px;
+	}
+	.contact img {
+		height: 60px;
+	}
+	.contact-buttons :nth-child(2) {
+		margin-right: 108px;
+	}
+}
+@media (max-width: 320px) {
+	.about img {
+		margin-left: 5%;
+	}
+	.project {
+		width: 300px;
+		height: 300px;
+	}
+	.overlay h3 {
+		padding: 0 12px;
+		margin-top: -17px;
+	}
 }
