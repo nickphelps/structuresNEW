@@ -211,7 +211,7 @@ html, body {
 /*******************************
 		MEDIA QUERY STYLES
 *******************************/
-@media (max-width: 1139px) {
+/* @media (max-width: 1139px) {
 	.featured-split-video, .featured-split-code {
 		width: 550px;
 	}
@@ -271,14 +271,14 @@ html, body {
 }
 
 /* Phone 6 Plus*/
-@media (max-width: 414px) {
+/* @media (max-width: 414px) {
 	.navbar-brand {
         background-image: url('images/')
     }
-}
+} */
 
 /* iPhone 5 and iPhone 6 */
-@media (max-width: 375px) {
+/* @media (max-width: 375px) {
 	.contact-buttons {
 		padding: 15px 20px;
 	}
@@ -297,8 +297,8 @@ html, body {
 	.contact-buttons :nth-child(2) {
 		margin-right: 108px;
 	}
-}
-@media (max-width: 320px) {
+} */
+/* @media (max-width: 320px) {
 	.about img {
 		margin-left: 5%;
 	}
@@ -310,4 +310,18 @@ html, body {
 		padding: 0 12px;
 		margin-top: -17px;
 	}
+}  */
+
+.small-logo{
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .large-logo {
+        display: none;
+    }
+
+    .small-logo {
+        display: block;
+    }
 }
