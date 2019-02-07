@@ -98,10 +98,10 @@ html, body {
     border-radius: 100%;
 }
 
-.card-pumptruck  {
+/* .card-pumptruck  {
     overflow: hidden;
     border-radius: 100%;
-}
+} */
 
 .flatwork-img:hover {
     transform: scale(1.2);
@@ -119,10 +119,10 @@ html, body {
     opacity: .6;
 }
 
-.pumptruck-img:hover {
+/* .pumptruck-img:hover {
     transform: scale(1.2);
     opacity: .6;
-} 
+}  */
 
 .text {
     color: #404040;
@@ -255,17 +255,30 @@ html, body {
 /* Header Text Resizing*/
 @media (max-width: 600px) {
     .display-4 {
-        font-size: 3.0rem;
+        font-size: 2.0rem;
     }
     .lead {
         width: 90%;
     }
 
     .text {
-        /* display: block; */
         opacity: 1;
-        /* border: 1px solid black; */
-        color: black;
+        color: #404040;
+    }
+
+    .flatwork-img {
+        /* transform: scale(1.2); */
+        opacity: .6;
+    }
+
+    .waterfeature-img {
+        /* transform: scale(1.2); */
+        opacity: .6;
+    }
+
+    .foundation-img:hover {
+        /* transform: scale(1.2); */
+        opacity: .6;
     }
 }
 
