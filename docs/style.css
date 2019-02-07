@@ -252,6 +252,7 @@ html, body {
 
 }
 
+/* Header Text Resizing*/
 @media (max-width: 600px) {
     .display-4 {
         font-size: 3.0rem;
@@ -260,4 +261,10 @@ html, body {
         width: 90%;
     }
 
+    .text {
+        /* display: block; */
+        opacity: 1;
+        /* border: 1px solid black; */
+    }
 }
+
