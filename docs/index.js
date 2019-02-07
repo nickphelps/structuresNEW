@@ -1,6 +1,6 @@
 //header scroll logic
 $(window).scroll(function () {
-    if ($(window).scrollTop() >= 300) {
+    if ($(window).scrollTop() >= 100) {
         $('.navbartop').css('background', '#F5F5F5')
     } else {
         $('.navbartop').css('background', 'transparent')
@@ -9,6 +9,7 @@ $(window).scroll(function () {
         // $('.navbartop').css('opacity', '0.2')
     }
 })
+
 
 //Home Page Card Logic for Scope Cards
 document.getElementById('flatwork-card').onmouseover = function() {

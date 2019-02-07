@@ -5,9 +5,6 @@ html, body {
     background-color: #001A33;
 }
 
-/* .navbar {
-background-color: red;
-} */
 
 .nav-link {
     color: #404040;
@@ -15,7 +12,6 @@ background-color: red;
 }
 
 #home {
-    background: url("images/hpmePictureOne.jpg") no-repeat center top fixed;
     display: table;
     height: 100%;
     position: relative;
@@ -57,7 +53,6 @@ background-color: red;
 .jumbotron {
     margin: 0px;
     background-color: #F5F5F5;
-    /* background-color: #F8F8FF; */
     padding: 1%;
     color: #404040;
 }
@@ -79,7 +74,6 @@ background-color: red;
 }
 
 #transition-img {
-    background: url('images/pumpTruck.jpg') no-repeat center top fixed;
     display: table;
     height: 100%;
     position: relative;
@@ -171,7 +165,6 @@ background-color: red;
 
 /* ABOUT CSS */
 #home-about {
-    background: url("images/about-background.jpg") no-repeat center top fixed;
     display: table;
     height: 90%;
     position: relative;
@@ -182,7 +175,6 @@ background-color: red;
 
 /* CONTACT CSS*/
 #home-contact {
-    background: url("images/contact-background.jpg") no-repeat center top fixed;
     display: table;
     height: 90%;
     position: relative;
@@ -204,15 +196,93 @@ background-color: red;
     margin-top: 5%;
 }
 
-
-
 /* Project CSS*/
 #home-projects {
-    background: url("images/projects/Grapevine_Station/grapevine1.jpg") no-repeat center top fixed;
     display: table;
     height: 90%;
     position: relative;
     width: 100%;
     background-size: cover;
     margin: 0px;
+}
+
+/* Logo Logic*/
+.small-logo{
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .large-logo {
+        display: none;
+    }
+
+    .small-logo {
+        display: block;
+    }
+}
+
+/*******************************
+		HAMBURGER STYLES
+*******************************/
+.hamburger-icon {
+	display: none;
+}
+.hamburger-icon img {
+	height: 33px;
+}
+.hamburger-menu {
+	display: none;
+	position: fixed;
+	top: 75px;
+	z-index: 3000;
+	width: 100%;
+}
+.hamburger-menu ul {
+	list-style-type: none;
+	background-color: white;
+	padding: 0;
+	margin: 0;
+	opacity: 0.9;
+	text-align: center;
+}
+.hamburger-menu li {
+	color: gray;
+	padding: 15px;
+}
+.hamburger-menu a {
+	font-family: 'Blanc-Medium';
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.navbar-item {
+    display: inline;
+}
+
+/* Home Page */
+@media (max-width: 800px) {
+    #home {
+        opacity: 0.3;
+    }
+}
+
+/* About Page */
+@media (max-width: 800px) {
+    #home-about {
+        opacity: 0.3;
+    }
+}
+
+/* Project Page */
+@media (max-width: 800px) {
+    #home-projets {
+        opacity: 0.3;
+    }
+}
+
+/*Contact Page */
+@media (max-width: 800px) {
+    #home-contact {
+        opacity: 0.3;
+    }
 }
