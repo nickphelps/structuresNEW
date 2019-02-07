@@ -1,6 +1,6 @@
 //header scroll logic
 $(window).scroll(function () {
-    if ($(window).scrollTop() >= 100) {
+    if ($(window).scrollTop() >= 75) {
         $('.navbartop').css('background', '#F5F5F5')
     } else {
         $('.navbartop').css('background', 'transparent')
