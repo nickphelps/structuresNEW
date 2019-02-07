@@ -238,7 +238,7 @@ html, body {
 
 /* Project Page */
 @media (max-width: 800px) {
-    #home-projets {
+    #home-projects {
         opacity: 0.3;
     }
 }
