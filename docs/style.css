@@ -267,17 +267,14 @@ html, body {
     }
 
     .flatwork-img {
-        /* transform: scale(1.2); */
         opacity: .6;
     }
 
     .waterfeature-img {
-        /* transform: scale(1.2); */
         opacity: .6;
     }
 
-    .foundation-img:hover {
-        /* transform: scale(1.2); */
+    .foundation-img {
         opacity: .6;
     }
 }
